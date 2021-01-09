@@ -60,16 +60,16 @@ html{
     border-radius: 35px;
     padding-left: 5px;
     padding-right: 5px;
-    background-color: #feffbe;
-    border-color: #ffcfea;
+    background-color: tan;
+    border-color: white;
     
         
 }   
 
 .filter{
     text-align: center;
-    background-color: #cbffe6;
-    border-color: #ffcfea;
+    background-color: gray;
+    border-color: white;
     border-style: solid;
     border-radius: 35px;
     padding-bottom: 5px;
@@ -77,20 +77,20 @@ html{
 }
 
 #filterSelect{
-    background-color: #ffcfea;
-    border-color: #ffcfea;
+    background-color: white;
+    border-color: white;
 }
 
 input{
-    background-color: #cbffe6; 
-    border-color: #ffcfea;
+    background-color: gray; 
+    border-color: white;
     margin: 5px;
     text-align: center;
 }
 
 #rating{
-    background-color: #cbffe6;
-    border-color: #cbffe6;
+    background-color: gray;
+    border-color: gray;
 }
 
 label{

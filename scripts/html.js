@@ -16,7 +16,7 @@ function generateInputArea(){
                 <label for="name">Name</label><br>
             <input id="link" type="string" placeholder="Bookmark Link" required>
                 <label for="link">Link</label><br>
-            <input id="description" type="string" placeholder="description">
+            <input id="description" type="string" placeholder="Description">
                 <label for="description">Description</label><br>
             <select id="rating" type="" placeholder="Rating"><br> 
                 <option value="">Rating</option>
