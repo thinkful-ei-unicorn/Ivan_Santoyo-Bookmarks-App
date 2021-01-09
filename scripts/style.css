@@ -1,0 +1,197 @@
+html{
+      background-color: gray;
+      font-family: 'Times New Roman', Times, serif;
+      max-width: 500px;
+  margin: auto;
+      font-size: medium;
+  }
+
+  header{
+      text-align: center;
+      background-color: gray;
+    border-color: red;
+    border-style: solid;
+    border-radius: 35px;
+  }
+
+.listItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+    background-color: gray;
+    border-style: solid;
+    border-radius: 35px;
+    border-color: red;
+}
+
+.innerObject{
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    border-style: solid;
+    border-radius: 35px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-color: red;
+    
+}
+
+.listItemFull{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+    background-color: gray;
+    border-style: solid;
+    border-radius: 35px;
+    border-color: white
+}
+
+.innerObjectFull{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-style: solid;
+    border-radius: 35px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #feffbe;
+    border-color: #ffcfea;
+    
+        
+}   
+
+.filter{
+    text-align: center;
+    background-color: #cbffe6;
+    border-color: #ffcfea;
+    border-style: solid;
+    border-radius: 35px;
+    padding-bottom: 5px;
+    
+}
+
+#filterSelect{
+    background-color: #ffcfea;
+    border-color: #ffcfea;
+}
+
+input{
+    background-color: #cbffe6; 
+    border-color: #ffcfea;
+    margin: 5px;
+}
+
+#rating{
+    background-color: #cbffe6;
+    border-color: #cbffe6;
+}
+
+label{
+
+}
+
+@media all and (min-width: 600px){
+    html{
+        background-color: tan;
+        font-family: 'Times New Roman', Times, serif;
+        
+        
+        font-size: bolder;
+    }
+  
+    header{
+        text-align: center;
+        background-color: gray;
+      border-color: red;
+      border-style: solid;
+      border-radius: 35px;
+    }
+  
+  .listItem{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      border-width: 2px;
+      border-style: solid;
+      padding: 10px;
+      background-color:gray;
+      border-style: solid;
+      border-radius: 35px;
+      border-color: #red;
+  }
+  
+  .innerObject{
+      display: flex;
+      flex-direction: row;
+      background-color: red;
+      border-style: solid;
+      border-radius: 35px;
+      padding-left: 5px;
+      padding-right: 5px;
+      border-color: red;
+      
+  }
+  
+  .listItemFull{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-width: 2px;
+      border-style: solid;
+      padding: 10px;
+      background-color: gray;
+      border-style: solid;
+      border-radius: 35px;
+      border-color: red;
+  }
+  
+  .innerObjectFull{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      border-style: solid;
+      border-radius: 35px;
+      padding-left: 5px;
+      padding-right: 5px;
+      background-color: gray;
+      border-color:red;
+      
+          
+  }   
+  
+  .filter{
+      text-align: center;
+      background-color: gray;
+      border-color: red;
+      border-style: solid;
+      border-radius: 35px;
+      padding-bottom: 5px;
+      
+  }
+  
+  #filterSelect{
+      background-color: red;
+      border-color: red;
+  }
+  
+  input{
+      background-color: white; 
+      border-color: gray;
+      margin: 5px;
+  }
+  
+  #rating{
+      background-color: white;
+      border-color: gray;
+  }
+  
+  label{
+  
+  }
+}
