@@ -5,7 +5,7 @@ function generateHTML(){
 }
 
 function headerUi(){
-    $('header').html(`<h1>Bookmarks</h1>`)
+    $('header').html(`<h1>Bookmarks App</h1>`)
     }
 
 function generateInputArea(){

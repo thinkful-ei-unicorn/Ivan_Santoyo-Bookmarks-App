@@ -9,7 +9,7 @@ html{
   header{
       text-align: center;
       background-color: gray;
-    border-color: red;
+    border-color: white;
     border-style: solid;
     border-radius: 35px;
   }
@@ -24,7 +24,7 @@ html{
     background-color: gray;
     border-style: solid;
     border-radius: 35px;
-    border-color: red;
+    border-color: white;
 }
 
 .innerObject{
@@ -35,7 +35,7 @@ html{
     border-radius: 35px;
     padding-left: 5px;
     padding-right: 5px;
-    border-color: red;
+    border-color: white;
     
 }
 
@@ -85,6 +85,7 @@ input{
     background-color: #cbffe6; 
     border-color: #ffcfea;
     margin: 5px;
+    text-align: center;
 }
 
 #rating{
@@ -108,7 +109,7 @@ label{
     header{
         text-align: center;
         background-color: gray;
-      border-color: red;
+      border-color: white;
       border-style: solid;
       border-radius: 35px;
     }
@@ -123,18 +124,18 @@ label{
       background-color:gray;
       border-style: solid;
       border-radius: 35px;
-      border-color: #red;
+      border-color:  white;
   }
   
   .innerObject{
       display: flex;
       flex-direction: row;
-      background-color: red;
+      background-color: white;
       border-style: solid;
       border-radius: 35px;
       padding-left: 5px;
       padding-right: 5px;
-      border-color: red;
+      border-color: white;
       
   }
   
@@ -148,7 +149,7 @@ label{
       background-color: gray;
       border-style: solid;
       border-radius: 35px;
-      border-color: red;
+      border-color: white;
   }
   
   .innerObjectFull{
@@ -160,7 +161,7 @@ label{
       padding-left: 5px;
       padding-right: 5px;
       background-color: gray;
-      border-color:red;
+      border-color white;
       
           
   }   
@@ -168,7 +169,7 @@ label{
   .filter{
       text-align: center;
       background-color: gray;
-      border-color: red;
+      border-color: white;
       border-style: solid;
       border-radius: 35px;
       padding-bottom: 5px;
@@ -176,8 +177,8 @@ label{
   }
   
   #filterSelect{
-      background-color: red;
-      border-color: red;
+      background-color: white;
+      border-color: white;
   }
   
   input{
